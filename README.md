@@ -2,7 +2,7 @@
 
 This is a proof of concept for a proposal in https://github.com/systemjs/systemjs/issues/1671.
 
-To investigate the performance there are two cases of using malloc in Web Assembly, with a simple module containing the following code transpiled into Web Assembly:
+To investigate the performance of binding malloc through JS instead of directly through WASM there are two cases of using malloc in Web Assembly, with a simple module containing the following code transpiled into Web Assembly:
 
 ```c
 #include <stdlib.h>
