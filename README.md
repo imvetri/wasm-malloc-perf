@@ -26,8 +26,8 @@ void deleteRecord (struct Record* addr) {
 }
 ```
 
-1. [malloc-js-bound](tree/master/malloc-js-bound): In this example, the main program exports its memory, using a JS binding trick to get a malloc bound to its own exported memory.
-2. [malloc-wasm-bound](tree/master/malloc-wasm-bound): In this example, the main program is compiled to import its memory, which is initialized in JS before being passed into both the malloc and program modules.
+1. [malloc-js-bound](malloc-js-bound): In this example, the main program exports its memory, using a JS binding trick to get a malloc bound to its own exported memory.
+2. [malloc-wasm-bound](malloc-wasm-bound): In this example, the main program is compiled to import its memory, which is initialized in JS before being passed into both the malloc and program modules.
 
 ### Performance Results
 
