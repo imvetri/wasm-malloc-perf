@@ -1,0 +1,22 @@
+{
+  "name": "wasm-malloc-perf",
+  "version": "1.0.0",
+  "description": "This is a proof of concept for a proposal in https://github.com/systemjs/systemjs/issues/1671.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imvetri/wasm-malloc-perf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imvetri/wasm-malloc-perf/issues"
+  },
+  "homepage": "https://github.com/imvetri/wasm-malloc-perf#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
